@@ -1,0 +1,5 @@
+DialogueID,CharacterName,Dialogue,SpriteName,DialogueNextID
+Intro_01,Tristan,Hello,Tristan_Hello,Intro_02
+Intro_02,Kevin,"Hi, How Are You ?",Kevin_Hello,Intro_03
+Intro_03,Tristan,I'm fine. How About You ?,Tristan_Hello,Intro_04
+Intro_04,Kevin,Me too. Nice to see you,Kevin_Hello,END
