@@ -45,7 +45,7 @@ Standard parsing methods like `string.Split(',')` fail when dialogue contains pu
 - It strips leading/trailing quotation marks added by Google Sheets during export to ensure clean UI display.
 
 ### Data Efficiency
-- **Dictionary Implementation:** Data is mapped to a `Dictionary<string, DialogueData>`, providing **O(1)** lookup complexity.
+- **Dictionary Implementation:** Dialogue data is mapped to a `Dictionary<string, DialogueData>`
 - **Persistent Storage:** The system saves a local copy in `Resources`, allowing the game to run offline using the last successfully synced data.
 
 ## 🎨 Credits & Assets
